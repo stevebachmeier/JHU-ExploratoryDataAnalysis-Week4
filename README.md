@@ -40,16 +40,16 @@ The zip file contains two files:
 
 * summarySCC_PM25.rds: PM2.5 Emissions Data. This contains a data frame with all of the PM2.5 emissions data for 1999, 2002, 2005, and 2008. for each year, the table contains number of tons of PM2.5 emitted from a specific type of source for the entire year.
 
-  ** fips: a five-digit number (string) indicating the U.S. country
+    + fips: a five-digit number (string) indicating the U.S. country
   
-  ** SCC: the name of the source as indicated by a digit string
+    + SCC: the name of the source as indicated by a digit string
   
-  ** Pollutant: a string indicating the pollutant
+    + Pollutant: a string indicating the pollutant
   
-  ** Emissions: Amount of PM2.5 in tons
+    + Emissions: Amount of PM2.5 in tons
   
-  ** type: the type of source (point, non-point, on-road, or non-road)
+    + type: the type of source (point, non-point, on-road, or non-road)
   
-  ** year: the year of emissions recorded
+    + year: the year of emissions recorded
   
 * Source_Classification_Code.rds: Source Classification Code Table. this table provides a maping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source.
